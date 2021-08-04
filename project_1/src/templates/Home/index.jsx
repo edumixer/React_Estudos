@@ -42,7 +42,7 @@ export const DisplayCounted = forwardRef(function DisplayCounted({ counted }, re
         return (
           <p onClick={handleClick} key={`c-${c}`}>
             {c} +++ {rand}
-          </p>
+          </p> 
         );
       })}
     </div>
